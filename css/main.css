@@ -37,7 +37,7 @@ img:nth-child(even) {
 
   img {
     display: inline-block;
-    width: 31%;
+    width: 32%;
   }
 
   img:first-child {
@@ -48,17 +48,30 @@ img:nth-child(even) {
 
 @media only screen and (min-width: 60em) {
 
+  body {
+    text-align: center;
+  }
+
   img {
     display: inline-block;
-    width: 25%;
+    width: 24%;
+  }
+
+  img:first-child {
+    display: inline-block;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  body {
+    text-align: center;
+  }
+
   img {
     display: inline-block;
+    width: 24%;
   }
 
 }
