@@ -16,15 +16,15 @@ img {
   width: 100%;
 }
 
-  img:nth-child(even) {
-    display: none;
-  }
+img:nth-child(even) {
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
   img {
-   width: 46%;
-   display: inline-block;
+    width: 47%;
+    display: inline-block;
   }
 
   img:nth-child(even) {
@@ -37,7 +37,7 @@ img {
 
   img {
     display: inline-block;
-    width: 30%
+    width: 30%;
   }
 
   img:first-child {
@@ -60,3 +60,5 @@ img {
   img {
     display: inline-block;
   }
+
+}
